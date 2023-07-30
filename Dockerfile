@@ -1,5 +1,5 @@
 FROM lolhens/baseimage-openjre
 WORKDIR app
-COPY . .
+ADD . .
 EXPOSE 8000
-CMD ["java", "-jar", "springbootApp.jar"]
+CMD ["java", "-jar", "springbootapp.jar"]
